@@ -150,6 +150,7 @@ img.subheading-icon {
 }
 #toggleBtn.active::before {
   transform: translateX(40px);
+  background-color: #38ada9 ;
 }
 
 @media (min-width: 992px) {
