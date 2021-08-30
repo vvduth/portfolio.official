@@ -14,6 +14,7 @@ window.onload = function () {
   const themeBtn = document.getElementById('toggleBtn');
   themeBtn.addEventListener('click', function () {
     // Lấy thuộc tính data-theme
+    //hey
     const root = document.querySelector(':root');
     const isLightMode =
       root.getAttribute('data-theme') === 'dark' ? false : true;
