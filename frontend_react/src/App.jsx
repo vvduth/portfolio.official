@@ -9,10 +9,8 @@ function App() {
     <NavBar />
     <Header/>
     <About />
-    <Work />
-    <Skills />
-    <Testimonial />
-    <Footer />
+     <Work />
+    
    </div>
   );
 }

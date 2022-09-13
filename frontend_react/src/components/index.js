@@ -1,3 +1,9 @@
-import NavBar from "./NavBar/NavBar";
+import NavigationDot from './NavigationDot';
+import SocialMedia from './SocialMedia';
+import NavBar from './NavBar/NavBar';
 
-export {NavBar}
+export {
+  NavigationDot,
+  SocialMedia,
+  NavBar,
+};
