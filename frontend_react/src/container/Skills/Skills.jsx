@@ -32,7 +32,7 @@ const Skills = () => {
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
               className="app__skills-item app__flex"
-              key={skill.name}
+              key={skill.name + Math.random()}
             >
               <div
                 className="app__flex"
