@@ -5,7 +5,7 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
         <div>
-            <BsTwitter />
+            <BsTwitter href='https://twitter.com/pukeduke123'/>
         </div>
 
         <div>
