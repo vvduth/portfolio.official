@@ -5,6 +5,7 @@ import "./About.scss";
 import { useState } from "react";
 import { useEffect } from "react";
 import { client, urlFor } from "../../client";
+import MotionWrap from "../../wrapper/MotionWrap";
 import { AppWrap } from "../../wrapper";
 
 const About = () => {
@@ -14,6 +15,7 @@ const About = () => {
     const query = '*[_type== "abouts"]';
 
     client.fetch(query).then((data) => setAbouts(data));
+    
   }, []);
   return (
     <>
@@ -46,4 +48,8 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, 'About');
+export default AppWrap(
+  MotionWrap(About, 'app__about'),
+  'about',
+  'app__whitebg',
+);

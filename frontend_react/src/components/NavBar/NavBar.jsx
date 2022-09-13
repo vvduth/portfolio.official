@@ -11,7 +11,7 @@ const NavBar = () => {
         <img src={images.logo3} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {["Home", "About", "Work", "Skills", "Contact"].map((item) => (
+        {["Home", "About", "Work", "Skills", "Testimonials","Contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>

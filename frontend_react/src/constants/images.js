@@ -36,6 +36,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import logo2 from '../assets/logo2.png'
 import logo3 from '../assets/logo3.png'
+import ducthai from '../assets/ducthai.jpg'
 
 export default {
   email,
@@ -72,5 +73,6 @@ export default {
   skype,
   spotify,
   logo2,
-  logo3
+  logo3,
+  ducthai
 };
